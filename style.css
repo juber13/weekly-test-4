@@ -1,0 +1,278 @@
+html , body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: arial;
+    background-color: #ddd; 
+}
+
+.main{
+    width: 100%;
+}
+
+.header{
+    width: 100%;
+    background-color: #333333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 0;
+}
+
+.logo{
+    width: 25%;
+    text-align: left;
+}
+
+.list-items{
+    width: 38%;
+}
+
+.list-items ul{
+    width: 100%;
+    margin: 0 20px;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+}
+
+.list-items ul li{
+    font-size: 17px;
+    font-weight: 500;
+
+}
+
+.list-items ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.home{
+    padding-top: 10px;
+    width: 100%;
+    height: calc(100vh - 80px);
+}
+
+.home{
+    position: relative; 
+}
+
+/* .background{
+    background-color: red;
+    background-image: url("https://koa.com/blog/images/family-camping-at-sunset.jpg?preset=heroimagecropped");
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    object-fit:cover;
+} */
+
+.background {
+    background-color: red;
+    background-image: url("https://koa.com/blog/images/family-camping-at-sunset.jpg?preset=heroimagecropped");
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain;
+    background-attachment: fixed;
+    z-index: -1;
+  }
+
+  .background::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+
+  }
+
+
+
+
+.home .home-content{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.text{
+    margin: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+} 
+
+
+
+.text h2{
+    font-size: 4vw;
+    color: #fff;
+    margin: 0;
+}
+
+.text p{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+}
+
+.text button{
+    width: 220px;
+    padding: 15px 20px;
+    border: none;
+    font-size: 18px;
+    box-shadow: 5px 2px -2px #000;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.services{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #ddd;
+}
+
+.services-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:30px;
+}
+
+.services-header{
+    width: 100%;
+    text-align: center;
+    
+}
+
+.box{
+    width: 350px;
+    height: 300px;
+    padding: 25px 10px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:#fff;
+    border-radius: 5px;
+    box-shadow: 10px 10px 4px #ddd;
+    
+}
+
+.box p{
+    width: 75%;
+    line-height: 25px;
+}
+
+.box img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.about-us{
+    width: 80%;
+    margin: 180px auto;
+    text-align: center;
+}
+
+
+.about-us  h2{
+    margin: 0;
+    font-weight: 700;
+    font-size: 30px;
+}
+.about-us .dec{
+    width: 80%;
+    text-align: left;
+    padding: 10px;
+}
+
+.contact-us{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.contact-us h2{
+    margin: 0;
+}
+
+
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+
+}
+
+
+
+.add ul{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+.add ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.contact-us h2{
+    font-size: 2.4rem;
+    display: block !important;
+}
+
+
+.form .form-control , input{
+    width: 92%;
+    border: none;
+    outline: none;
+}
+
+.form-control input{
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+}
+
+.form-control button{
+    width: 40%;
+    padding:15px 10px;
+    background-color: #000;
+    color: #ffff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 250px;
+    align-items: start;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+}
