@@ -5,6 +5,7 @@ html , body{
     text-decoration: none;
     font-family: arial;
     background-color: #ddd; 
+    scroll-behavior: smooth;
 }
 
 .main{
